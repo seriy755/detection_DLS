@@ -8,7 +8,7 @@
 Был выбран проект по детекции объектов на изображении.
 
 **2 сценарий:**
-* Был выбран детектор SSD300 из [Torcvision.ssd300_vgg16](https://pytorch.org/vision/master/generated/torchvision.models.detection.ssd300_vgg16.html)
+* Был выбран детектор SSD300 из [Torcvision.models.detection.ssd300_vgg16](https://pytorch.org/vision/master/generated/torchvision.models.detection.ssd300_vgg16.html)
 * Взят датасет игральных карт: [оригинальный репо](https://github.com/EdjeElectronics/TensorFlow-Object-Detection-API-Tutorial-Train-Multiple-Objects-Windows-10)
 
 Обученная модель может быть применена, например для выявления шулерства в казино. Можно встроить данную модель в детектор слежения, который отслеживает карты на руках участников, и при шулерстве(например, одна из карт была заменена) сообщает об этом.
