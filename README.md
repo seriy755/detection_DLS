@@ -19,14 +19,14 @@
 * Запускаем файл [`demo.ipynb`](https://github.com/seriy755/detection_DLS/blob/main/demo.ipynb)
 * Передаем в функцию `demo` модель, тензор изображения и порог
 
-### 2. Тренировка:
+#### 2. Тренировка:
 * Запускаем файл [`train.ipynb`](https://github.com/seriy755/detection_DLS/blob/main/train.ipynb)
 * Объявляем модель, оптимизатор, его параметры, планировщик и т.д.
 * Передаём в функцию `train` модель, оптимизатор, его параметры, количество эпох, train/test-loaderы, device, планировщик, его параметры
  
 Во время обучения графики потерь выводятся на экран при помощи библиотеки [tensorboard](https://github.com/tensorflow/tensorboard)
 
-### 3. Оценка модели:
+#### 3. Оценка модели:
 * Запускаем файл [`eval.ipynb`](https://github.com/seriy755/detection_DLS/blob/main/eval.ipynb)
 * Передаём в функцию `eval` модель, датасет, порог(для Precision, Recall, F1)
 
